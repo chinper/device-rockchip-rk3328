@@ -13,6 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+GAPPS_PRODUCT_PACKAGES += Chrome
+GAPPS_EXCLUDED_PACKAGES += BugReportSender
+GAPPS_EXCLUDED_PACKAGES += GlobalKeyInterceptor
+#
 PRODUCT_PROPERTY_OVERRIDES := \
     wifi.interface=wlan0 \
     ro.opengles.version=196609
