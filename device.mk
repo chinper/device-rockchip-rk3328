@@ -17,6 +17,7 @@ GAPPS_PRODUCT_PACKAGES += Chrome
 GAPPS_EXCLUDED_PACKAGES += BugReportSender
 GAPPS_EXCLUDED_PACKAGES += GlobalKeyInterceptor
 GAPPS_EXCLUDED_PACKAGES += RemoteControlService
+GAPPS_EXCLUDED_PACKAGES += AtvRemoteService
 #
 PRODUCT_PROPERTY_OVERRIDES := \
     wifi.interface=wlan0 \
