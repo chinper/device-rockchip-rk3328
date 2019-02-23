@@ -15,6 +15,7 @@
 #
 GAPPS_EXCLUDED_PACKAGES += BugReportSender
 GAPPS_EXCLUDED_PACKAGES += GlobalKeyInterceptor
+GAPPS_EXCLUDED_PACKAGES += RemoteControlService
 #
 PRODUCT_PROPERTY_OVERRIDES := \
     wifi.interface=wlan0 \
