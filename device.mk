@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 GAPPS_EXCLUDED_PACKAGES += BugReportSender
+GAPPS_EXCLUDED_PACKAGES += GlobalKeyInterceptor
 #
 PRODUCT_PROPERTY_OVERRIDES := \
     wifi.interface=wlan0 \
