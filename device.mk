@@ -13,6 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+GAPPS_EXCLUDED_PACKAGES += BugReportSender
+#
 PRODUCT_PROPERTY_OVERRIDES := \
     wifi.interface=wlan0 \
     ro.opengles.version=196609
